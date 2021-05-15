@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         id: 1,
         name: "Badraiah",
         title: "1920-1970",
-        img: "https://cdn.balkan.app/shared/2.jpg",
+        img: "./assets/images/2.jpg",
       },
       {
         id: 2,
