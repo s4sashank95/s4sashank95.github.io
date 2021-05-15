@@ -28,6 +28,7 @@ body {
 
 .edit-photo {
   height: 300px;
+  background-color: #66a5ad !important;
 }
 
 .edit-photo img {
@@ -45,6 +46,10 @@ body {
   stroke: #07575b;
 }
 
+#tree > svg > g.node.partner > rect {
+  fill: #9dc5ca !important;
+}
+
 #tree > svg > g > line {
   stroke: #07575b;
 }
@@ -59,4 +64,8 @@ body {
 
 .bg-dark {
   background-color: #003b46 !important;
+}
+
+.contact-content {
+  height: 100%;
 }
