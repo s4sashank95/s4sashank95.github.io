@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   chart = new OrgChart(document.getElementById("tree"), {
     template: "luba",
-    menu: {
-      export_pdf: {
-        text: "Export PDF",
-        icon: OrgChart.icon.pdf(24, 24, "#7A7A7A"),
-        onClick: pdf,
-      },
-    },
+    // menu: {
+    //   export_pdf: {
+    //     text: "Export PDF",
+    //     icon: OrgChart.icon.pdf(24, 24, "#7A7A7A"),
+    //     onClick: pdf,
+    //   },
+    // },
     nodeBinding: {
       field_0: "Name",
       field_1: "Date of Birth",
@@ -318,12 +318,12 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       chart.zoom(0.5);
 
-      var menu = document.querySelector("[control-export-menu]");
-      console.log(menu);
-      while (menu.children.length) menu.children[0].remove();
-      var img = document.createElement("img");
-      menu.appendChild(img);
-      img.src = "/assets/images/pdf.svg";
+      // var menu = document.querySelector("[control-export-menu]");
+      // console.log(menu);
+      // while (menu.children.length) menu.children[0].remove();
+      // var img = document.createElement("img");
+      // menu.appendChild(img);
+      // img.src = "/assets/images/pdf.svg";
     }, 200);
     // chart.zoom(0.5);
   }, 1000);
