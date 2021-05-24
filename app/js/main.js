@@ -217,14 +217,14 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 21,
         Name: "Narayan Rao",
         "Date of Birth": "DOD: 06-06-2003",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/T Narayan Rao.jpg",
       },
       {
         id: 30,
         pid: 21,
         Name: "Mahadev",
         "Date of Birth": "DOD: 12-07-2009",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/Mahadev.jpg",
       },
       {
         id: 31,
