@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 1,
         Name: "Bheemappa",
         "Date of Birth": "",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 3,
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 4,
         Name: "Rukmaji",
         "Date of Birth": "",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 6,
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 8,
         Name: "Govindappa",
         "Date of Birth": "",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 10,
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 13,
         Name: "Shankeriah",
         "Date of Birth": "",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 15,
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 17,
         Name: "Kistaiah",
         "Date of Birth": "",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 19,
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 22,
         Name: "Veerabadraiah",
         "Date of Birth": "DOD 16-12-1989",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 24,
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 21,
         Name: "Chandraiah",
         "Date of Birth": "DOD: 15-11-1996",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       {
         id: 29,
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pid: 27,
         Name: "Madhusudan Rao",
         "Date of Birth": "DOB: ",
-        img: "https://cdn.balkan.app/shared/5.jpg",
+        img: "/assets/images/missingp.png",
       },
       // {
       //   id: 36,
@@ -441,3 +441,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // chart.zoom(0.5);
   }, 1000);
 });
+
+// img: "https://cdn.balkan.app/shared/5.jpg",
+// img: "https://cdn.balkan.app/shared/10.jpg",
+// img: "https://cdn.balkan.app/shared/11.jpg",
